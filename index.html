@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesta dos Namorados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Cesta dos Namorados</h1>
+        <p>Presentes especiais para momentos inesquecíveis</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Cestas</a>
+        <a href="#">Promoções</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <section class="banner">
+        <div class="texto-banner">
+            <h2>Surpreenda quem você ama</h2>
+            <p>
+                Escolha uma cesta especial com chocolates, flores,
+                cartões e muito carinho para o Dia dos Namorados.
+            </p>
+            <button>Ver cestas</button>
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600" alt="Presente romântico">
+    </section>
+
+    <main class="produtos">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511381939415-e44015466834?w=500" alt="Cesta chocolate">
+            <h3>Cesta Chocolate</h3>
+            <p>Chocolates finos, cartão personalizado e embalagem especial.</p>
+            <span>R$ 89,90</span>
+            <button type="button" onclick="comprarTres()">Comprar</button>
+            <h2 id="mensagem3"></h2>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500" alt="Cesta flores">
+            <h3>Cesta Flores</h3>
+            <p>Flores, bombons, ursinho e uma mensagem romântica.</p>
+            <span>R$ 129,90</span>
+            <button type="button" onclick="comprarDois()">Comprar</button>
+            <h2 id="mensagem2"></h2>    
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500" alt="Cesta premium">
+            <h3>Cesta Premium</h3>
+            <p>Espumante, chocolates, flores e decoração personalizada.</p>
+            <span>R$ 189,90</span>
+            <button type="button" onclick="comprarUm()">Comprar</button>
+            <h2 id="mensagem1"></h2>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Cesta dos Namorados - Feito com carinho</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
